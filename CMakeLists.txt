@@ -5,5 +5,5 @@ add_executable( MinPerimeterRectangle  Prime_and_Composite/MinPerimeterRectangle
 add_executable( stonewall              Stacks_and_Queues/stonewall.cpp )
 add_executable( TapeEquilibrium        Time_Complexity/TapeEquilibrium.cpp )
 add_executable( NrOfDiscIntersections  Sorting/NrOfDiscIntersections.cpp )
-
+add_executable( OddOccurances    Arrays/OddOccurances.cpp )
 
