@@ -3,7 +3,10 @@
 // 
 
 #include <algorithm>
+#include <vector>
 #include <iostream>
+
+using namespace std;
 
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
@@ -37,3 +40,7 @@ int solution(vector<int> &A) {
 	return minPos;
 }
 
+int main( int argc, char ** argv )
+{
+	return 0;
+}
