@@ -2,5 +2,5 @@
 language: cpp
 
 script:
-	- mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake .
+  mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make 
 
