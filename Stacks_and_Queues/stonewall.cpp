@@ -40,17 +40,7 @@ int solution(vector<int> &H) {
 
 int main( int argc, char ** argv )
 {
-	vector<int> A;
-
-	A.push_back( 8 );
-	A.push_back( 8 );
-	A.push_back( 5 );
-	A.push_back( 7 );
-	A.push_back( 9 );
-	A.push_back( 8 );
-	A.push_back( 7 );
-	A.push_back( 4 );
-	A.push_back( 8 );
+	vector<int> A{ 8,8,5,7,9,8,7,4,8 };
 
 	cout << "Minimum blocks needed : " << solution( A ) << endl;
 
