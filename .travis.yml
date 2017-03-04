@@ -1,10 +1,17 @@
 
+# Ubuntu 14.04 Trusty support
+sudo: required
+dist: trusty
+
 language: cpp
 
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y cmake g++
+compiler:
+  - clang
+  - gcc
 
 script:
-  mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make && ./FloodDepth
+  - mkdir build
+  - cd build
+  - cmake -DCMAKE_BUILD_TYPE=Debug .. && make
+  - ./FloodDepth
 
