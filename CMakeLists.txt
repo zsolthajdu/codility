@@ -9,4 +9,5 @@ add_executable( OddOccurances    Arrays/OddOccurances.cpp )
 add_executable( MinAvgSlice            PrefixSums/MinAvgSlice.cpp )
 add_executable( MaxCounters            Counting/MaxCounters.cpp )
 add_executable( FloodDepth             Challenges/FloodDepth.cpp )
+add_executable( DwarfsRafting          Challenges/DwarfsRafting.cpp )
 
