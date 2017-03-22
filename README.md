@@ -1,4 +1,4 @@
-# codility
+# codility [![Build Status](https://travis-ci.org/zsolthajdu/codility.svg?branch=master)](https://travis-ci.org/zsolthajdu/codility)
 My solutions to some of the exercises on http://codility.com
 
 To build the executables you'll need the CMake package.
