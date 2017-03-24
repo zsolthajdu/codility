@@ -51,7 +51,6 @@ int solution(vector<int> &A, int X)
 		int minComplement = ceil( (double)X / available_pieces[i] );
 
 		auto ComplementStartPos = lower_bound( available_pieces.begin(), available_pieces.end(), minComplement );
-				//- available_pieces.begin();
 
 		count += available_pieces.end()-ComplementStartPos;
 
@@ -63,13 +62,11 @@ int solution(vector<int> &A, int X)
 				total++;
 			}
 		}
-		//cout << "i=" << i << ", MinC=" << minComplement << ", count = " << count << endl;
 	}
 
 	total += count / 2;
 	return total < MAX_RES ? total : -1;
 }
-
 
 
 int main( int argc, char ** argv )
