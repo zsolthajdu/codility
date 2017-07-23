@@ -22,5 +22,6 @@ add_executable( MaxCounters            Counting/MaxCounters.cpp )
 add_executable( FloodDepth             Challenges/FloodDepth.cpp )
 add_executable( DwarfsRafting          Challenges/DwarfsRafting.cpp )
 add_executable( RectangleBuilder       Challenges/rectanglebuilder.cpp )
+add_executable( SocksLaundering		Challenges/sockslaundering.cpp )
 
 

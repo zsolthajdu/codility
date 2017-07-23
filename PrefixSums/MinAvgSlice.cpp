@@ -42,5 +42,8 @@ int solution(vector<int> &A) {
 
 int main( int argc, char ** argv )
 {
+    vector<int> a{ 4, 2, 2, 5, 1, 5, 8 };
+
+    cout << "Min average slice starts at " << solution( a ) << endl;
 	return 0;
 }

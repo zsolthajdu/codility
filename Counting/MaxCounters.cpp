@@ -1,6 +1,7 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -23,14 +24,14 @@ vector<int> solution(int N, vector<int> &A) {
 			// Counter is incremented.
 			// Base value is lastMax, if current counter is smaller (meaning
 			// that lastMax should be there really )
-			values[a] = max<int>( lastMax, values[a]) + 1;
-			newMax = max<int>( values[a], newMax );
+			values[a] = max( lastMax, values[a]) + 1;
+			newMax = max( values[a], newMax );
 		}
 	}
 	// Update counter values that weren't updated with max value at the time
 	// of lst 'all max' fill operation.
 	for( auto & a : values )
-		a = max<int>( a, lastMax );
+		a = max( a, lastMax );
 
 	return values;
 }
