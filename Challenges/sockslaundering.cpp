@@ -11,7 +11,7 @@ using namespace std;
 
 int solution(int K, vector<int> &C, vector<int> &D)
 {
-	auto	pairs{0}, i{0};
+    auto	pairs = 0, i = 0;
 
 	sort( C.begin(), C.end() );
 	sort( D.begin(), D.end() );
